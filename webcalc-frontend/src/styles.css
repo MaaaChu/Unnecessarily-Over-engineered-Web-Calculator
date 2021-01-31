@@ -1,0 +1,43 @@
+body  {
+	font-size: 150%;
+	font-family: monospace;
+}
+
+#logo
+{
+	font-family: Calibri, sans-serif;
+	font-weight: lighter;
+	color: #505050;
+	margin: 0.5em;
+}
+
+#calculator
+{
+	text-align: center;
+	margin-top: 1em;
+}
+
+#display {
+	font-size: 100%;
+	padding: 0.2em;
+	margin: 0.2em;
+	font-family: monospace;
+	letter-spacing: 0.1em;
+}
+
+.calc1 {
+	border: solid #d0d0d0 1px;
+	background-color: #f0f0f0;
+	padding: 1.5em;
+	margin: 1em;
+}
+
+/* .notification {
+color: red;
+background: lightgray;
+font-size: 20;
+border-style: solid;
+border-radius: 5;
+padding: 1em;
+margin-bottom: 1em;
+} */

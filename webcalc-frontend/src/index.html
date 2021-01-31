@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WebCalc</title>
+	<script src="main.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body onload="onStart()">
+	<div id="calculator">
+			<div id="logo">
+					Casidave Calcutron
+					<br>
+					40176750
+			</div>
+			<div>
+					<input type="text" id="display" readonly="1" value="">
+			</div>
+			<div>
+					<button class="calc1" onclick="Clear();">C</button>
+					<button class="calc1" onclick="Modulo()">%</button>
+					<button class="calc1" onclick="Multiply()">x</button>
+					<button class="calc1" onclick="Divide()">/</button>
+			</div>
+			<div>
+					<button class="calc1" onclick="NumClick(7);">7</button>
+					<button class="calc1" onclick="NumClick(8);">8</button>
+					<button class="calc1" onclick="NumClick(9);">9</button>
+					<button class="calc1" onclick="Plus();">+</button>
+			</div>
+			<div>
+					<button class="calc1" onclick="NumClick(4);">4</button>
+					<button class="calc1" onclick="NumClick(5);">5</button>
+					<button class="calc1" onclick="NumClick(6);">6</button>
+					<button class="calc1" onclick="Minus();">-</button>
+			</div>
+			<div>
+					<button class="calc1" onclick="NumClick(1);">1</button>
+					<button class="calc1" onclick="NumClick(2);">2</button>
+					<button class="calc1" onclick="NumClick(3);">3</button>
+					<button class="calc1" onclick="Equals();">=</button>
+			</div>
+			<div>
+					<button class="calc1" onclick="NumClick(0);">0</button>
+					<button class="calc1" onclick="saveResult();">Save</button>
+					<button class="calc1" onclick="getResult();">Recall</button>
+					<button class="calc1" onclick="Square();">s</button>
+			</div>
+	</div>
+</body>
+
+</html>

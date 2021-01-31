@@ -1,0 +1,22 @@
+{
+ "name": "webcalc-proxy",
+ "version": "1.0.0",
+ "main": "index.js",
+ "author": "Matthew Leyburn",
+ "license": "MIT",
+ "dependencies": {
+  "cors": "^2.8.5",
+  "express": "^4.17.1",
+  "morgan": "^1.10.0",
+  "mysql": "^2.18.1"
+ },
+ "scripts": {
+  "start": "node index.js",
+  "test": "mocha tests/*.js"
+ },
+ "devDependencies": {
+  "chai": "^4.2.0",
+  "mocha": "^8.2.1",
+  "request": "^2.88.2"
+ }
+}

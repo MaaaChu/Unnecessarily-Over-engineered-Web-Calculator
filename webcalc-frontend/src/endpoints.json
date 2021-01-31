@@ -1,0 +1,9 @@
+{
+	"multiply": "multiply",
+	"divide": "divide",
+	"modulo": "modulo",
+	"square": "square",
+	"add": "add",
+	"subtract": "subtract",
+	"save": "saveresult"
+}
